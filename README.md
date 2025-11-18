@@ -1,8 +1,15 @@
 # Dependencies
 
-Install xsel tool
+Install:
 ```
+yay -S dbus-broker
 yay -S xsel
+yay -S rustup
+```
+
+Build cleaner
+```
+cargo build --release
 ```
 
 # Using

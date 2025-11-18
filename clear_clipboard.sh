@@ -20,7 +20,8 @@ while true; do
 
     # Если прошло больше нужного времени, очищаем буфер
     if (( $(echo "$counter >= $CLEAR_AFTER_SECONDS" | bc -l) )); then
-        echo "" | xsel --clipboard --input
+        # run: cargo build --release 
+        ./target/release/clear_clipboard -c
         counter=0
         last_content=""
         # echo "Почистили"

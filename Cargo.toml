@@ -1,0 +1,10 @@
+[package]
+name = "clear_clipboard"
+version = "0.1.0"
+edition = "2021"
+authors = ["Artyom Nazarov, Orenburg, 2025"]
+description = "Clipboard management tool for KDE Plasma"
+license = "MIT"
+
+[dependencies]
+argh = "0.1"
